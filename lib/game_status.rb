@@ -24,12 +24,17 @@ WIN_COMBINATIONS = [
       position_2 = board[win_index_2]
       position_3 = board[win_index_3]
       
+<<<<<<< HEAD
       if position_1 == "X" && position_2 == "X" && position_3 == "X" || position_1 == "O" && position_2 == "O" && position_3 == "O" 
+=======
+      if position_1 == "X" && position_2 == "X" && position_3 == "X"
+>>>>>>> 7c21d326f82969f30fe808e4789aa11a85579f9c
         return win_combination
       else
         false
       end
     end
+<<<<<<< HEAD
     if false
       return false
     end
@@ -56,4 +61,6 @@ WIN_COMBINATIONS = [
       win_combination = won?(board)
       return board[win_combination[0]]
     end
+=======
+>>>>>>> 7c21d326f82969f30fe808e4789aa11a85579f9c
   end
